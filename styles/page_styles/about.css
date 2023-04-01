@@ -137,6 +137,22 @@ body {
   background-position: center;
 }
 
+.btn {
+  background: #D1C6C3;
+  border: 1px solid #D1C6C3;
+  border-radius: 6px;
+  color: #6E6966;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1px;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: #9BA7AB;
+  color: #DDD4CD;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -170,7 +186,7 @@ section {
 }
 
 .about-text h2 {
-  color: black;
+  color: #6E6966;
   font-size: 75px;
   text-transform: capitalize;
   margin-bottom: 10px;
@@ -178,7 +194,7 @@ section {
 }
 
 .about-text h5 {
-  color: black;
+  color: #6E6966;
   letter-spacing: 2px;
   font-size: 45px;
   margin-bottom: 25px;

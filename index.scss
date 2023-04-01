@@ -1,6 +1,5 @@
 @import "./styles/components/footer";
 @import "./styles/components/header";
-@import "./styles/components/utils";
 @import "./styles/defaults/breakpoint";
 @import "./styles/defaults/colors";
 
@@ -149,22 +148,9 @@ body {
         }
     }
 
-    .navigation {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-around;
-
-        .logo-name {
-            // margin-bottom: 0; this will be taken care in mobile view
-
-            .name {
-                margin-bottom: 0;
-            }
-        }
-
         .nav-items {
             width: 50%;
         }
-    }
+    
 }
 

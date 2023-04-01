@@ -139,10 +139,18 @@ body {
 
 .contact-left {
   flex-basis: 35%;
+  color: #6E6966;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 5px;
+}
+.contact-left p {
+  padding: 5px;
 }
 
 .contact-right {
   flex-basis: 60%;
+  margin-left: 50px;
 }
 
 .contact-left p {

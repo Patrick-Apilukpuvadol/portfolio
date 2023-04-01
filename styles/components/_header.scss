@@ -1,0 +1,102 @@
+@import "../components/utils.scss";
+@import "../defaults/colors";
+@import "../defaults/breakpoint";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    height: 100vh;
+}
+
+.nav {
+    
+
+    &-toggle{
+        position: absolute;
+        cursor: pointer;
+        margin: 0rem 1rem;
+        right: 0;
+        
+        svg{
+            width: 1.5rem;
+            fill: black;
+        }
+
+        .menu{
+            margin-top: 0.2rem;
+        }
+    }
+
+    &-checkbox{
+        display:none;
+    }
+
+    &-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        margin: 1rem;
+    }
+
+    li{
+        list-style: none;
+        display: none;
+        background-color: $dark-background;
+        padding: 10px;
+        border-radius: 5px;
+        color: $text-color;
+
+        &:first-child{
+           margin-right: auto; 
+           display:block;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color:inherit;
+        font-size: 1.2rem;
+    }
+
+    svg{
+        width: 1.5rem;
+        fill: black;
+
+    }
+}
+
+#nav-checkbox:checked ~ ul.nav-menu li{
+    display:block;
+}
+
+#nav-checkbox:checked ~ label.nav-toggle .close{
+    display:block;
+}
+
+#nav-checkbox:checked ~label.nav-toggle .menu{
+    display:none;
+}
+
+@media only screen and (min-width:700px){
+    .nav{
+        &-toggle{
+            display: none;
+        }
+        &-menu{
+            flex-direction: row;
+
+            li{
+                display: block;
+            }
+        }
+    }
+}

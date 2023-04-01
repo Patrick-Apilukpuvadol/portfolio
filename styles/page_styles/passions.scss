@@ -1,0 +1,52 @@
+@import "../components/footer";
+@import "../components/header";
+@import "../defaults/colors";
+@import "../components/utils.scss";
+@import "../defaults/breakpoint";
+
+body {
+    background-image: url(../images/background-wihtewlight.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: vh;
+
+    article {
+        border: 3px solid $dark-background;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 20px 0px;
+        background-color: $primary-color;
+        padding: 16px;
+        text-align: center;
+        
+
+        section {
+            .service-img {
+                width: 350px;
+                border-radius: 16px;
+            }
+            }
+        }
+    }
+
+    @media screen and (max-width:$medium) {
+        main{
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .image{
+            display: flexbox;
+        }
+        .about-text{
+            display: block;
+            justify-content: center;
+        }
+        
+    }

@@ -1,0 +1,94 @@
+@import "../components/footer";
+@import "../components/header";
+@import "../defaults/colors";
+@import "../components/utils.scss";
+@import "../defaults/breakpoint";
+
+body {
+    background-image: url(../images/background-wihtewlight.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left i{
+    color: $dark-background;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.contact-right form{
+    width: 70%;
+    display: block;
+}
+
+.btn{
+    display: inline-block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid $dark-background;
+    border-radius: 6px;
+    padding: 14px 50px;
+    text-decoration: none;
+    color: $primary-color;
+    transition: background 0.5s;
+    font-weight: 700;
+    background: $dark-background;
+}
+
+.btn:hover{
+    background: $primary-color;
+    color: $dark-background;
+}
+
+form{
+    display: inline-block;
+    justify-content: center;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: $secondary-color;
+    padding: 15px;
+    margin: 15px 0;
+    color: $dark-background;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn.btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:$medium) {
+    main{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .image{
+        display: flexbox;
+    }
+    .about-text{
+        display: block;
+        justify-content: center;
+    }
+    
+}

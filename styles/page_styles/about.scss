@@ -1,0 +1,98 @@
+@import "../components/footer";
+@import "../components/header";
+@import "../defaults/colors";
+@import "../components/utils.scss";
+@import "../defaults/breakpoint";
+
+
+body {
+    background-image: url(../images/background-wihtewlight.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    width: 100%;
+    height: fit-content;
+    padding: 100px 0px;
+
+}
+
+.about img {
+    height: auto;
+    width: auto;
+    position: center;
+    display: flex;
+
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: auto;
+    max-width: 95%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text h2 {
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.about-text h5 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 45px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    padding: 20px;
+    height: fit-content;
+}
+
+p {
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: $text-color;
+    background-color: $dark-background;
+    border-radius: 10px;
+    
+}
+
+.image {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    
+}
+
+@media screen and (max-width:$medium) {
+    main{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .image{
+        display: flexbox;
+    }
+    .about-text{
+        display: block;
+        justify-content: center;
+    }
+    
+}

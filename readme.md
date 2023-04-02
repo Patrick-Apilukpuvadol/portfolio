@@ -11,7 +11,7 @@ This is a portfolio website for assessment purposes. Currently in development an
 
 Purpose of this website is an opportunity for the user to see how I would design a website portfolio and how the content would be presented. 
 
-I have added some functions across the pages so that the website is responsive and provides functionality for the user to interact with.
+I have added some functions across the pages so that the website is responsive and provides functionality for the user to interact with.COnt
 
 Please see below linked site map giving overview of how each of the HTML pages and added links connect with one another. In addition I have added the colour palette I have chosen to create a theme on the website for consistency and presentation for the user. 
 

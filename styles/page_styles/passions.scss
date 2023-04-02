@@ -3,12 +3,13 @@
 @import "../defaults/colors";
 @import "../defaults/breakpoint";
 
+// Implementation of background image
 body {
     background-image: url(../images/background-wihtewlight.jpg);
     background-size: cover;
     background-position: center;
 }
-
+// Styling of article blog entries into the passions page
 main {
     display: flex;
     justify-content: space-around;
@@ -42,6 +43,7 @@ main {
         }
     }
 
+    // styling of breakpoint so that content displays correctly on the page whether in mobile view or desktop view
     @media screen and (max-width:$medium) {
         main{
             display: flex;

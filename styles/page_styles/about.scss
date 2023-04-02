@@ -3,13 +3,13 @@
 @import "../defaults/colors";
 @import "../defaults/breakpoint";
 
-
+// Implementation of background image
 body {
     background-image: url(../images/background-wihtewlight.jpg);
     background-size: cover;
     background-position: center;
 }
-
+// styling of the buttons used as links to the Experience page and About page
 .btn{
     background: $primary-color;
     border: 1px solid $primary-color;
@@ -26,6 +26,7 @@ body {
     color: $text-color;
 }
 
+// styling of main content including the image and general lorem ipsum
 section{
     display: flex;
     flex-direction: column;
@@ -58,7 +59,7 @@ section{
     align-items: center;
     justify-content: center;
 }
-
+// styling of 2 header texts before lorem ipsum text
 .about-text h2 {
     color: $dark-background;
     font-size: 75px;
@@ -96,6 +97,7 @@ p {
     
 }
 
+// styling of breakpoint so that content displays correctly on the page whether in mobile view or desktop view
 @media screen and (max-width:$medium) {
     main{
         display: flex;

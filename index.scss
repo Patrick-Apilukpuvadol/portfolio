@@ -3,13 +3,13 @@
 @import "./styles/defaults/breakpoint";
 @import "./styles/defaults/colors";
 
-
+// Implementation of background image
 body {
     background-image: url(./styles/images/background-wihtewlight.jpg);
     background-size: cover;
     background-position: center;
 }
-
+// styling of header elements
 .header-text{
     margin-top: 100px;
     font-size: 36px;
@@ -17,7 +17,7 @@ body {
     justify-content: center;
 
 }
-
+// styling of banner image with additional animation linking to projects page
 .work{
     border-radius: 10px;
     position: relative;
@@ -81,7 +81,7 @@ body {
     height:100%
 
 }
-
+// styling of additional link within the page that links to the about me page
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
@@ -135,6 +135,7 @@ body {
 
 }
 
+// styling of breakpoint so that content displays correctly on the page whether in mobile view or desktop view
 @media screen and (min-width: 600px) {
     footer {
         .social-media {

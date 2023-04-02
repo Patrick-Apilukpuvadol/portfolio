@@ -8,13 +8,13 @@
     margin: 0;
     padding: 0;
 }
-
+// Standardised font of pages
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     height: 100vh;
 }
-
+// Beginning of navigation bar styling
 .nav {
     
 
@@ -72,7 +72,7 @@ body {
 
     }
 }
-
+// Checked/unchecked option which allows the hamburger icon to open the menu
 #nav-checkbox:checked ~ ul.nav-menu li{
     display:block;
 }
@@ -84,7 +84,7 @@ body {
 #nav-checkbox:checked ~label.nav-toggle .menu{
     display:none;
 }
-
+// breakpoint styling to allow the hamburger icon stay on the page when in mobile view
 @media only screen and (min-width:700px){
     .nav{
         &-toggle{

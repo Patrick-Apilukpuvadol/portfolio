@@ -1,7 +1,36 @@
 # Coder Academy - Portfolio Website Assessment
 
+GitHub link - https://github.com/Patrick-Apilukpuvadol/portfolio.git
+
+Youtube Link - 
+
+URL for website - 
+
 ## Overview
 This is a portfolio website for assessment purposes. Currently in development and will continue to add features in this readme that have been added to the website.
+
+Purpose of this website is an opportunity for the user to see how I would design a website portfolio and how the content would be presented. 
+
+I have added some functions across the pages so that the website is responsive and provides functionality for the user to interact with.
+
+Please see below linked site map giving overview of how each of the HTML pages and added links connect with one another. In addition I have added the colour palette I have chosen to create a theme on the website for consistency and presentation for the user. 
+
+!{Site map} (./styles/images/Portfolio-Website.png)
+
+The intended audience for this website would be anybody in the tech and in the creative workspace that would like to preview my work beforehand before contacting me about a potential project. 
+
+In this Website I used the following tech stack
+
+HTML
+CSS
+SCSS
+GITHUB
+FIGMA
+FIGJAM
+COOLORS
+Netlify
+Canva
+
 
 ## Components
 In the components added 2 which are the Header and the Footer. I added these to promote consistency across all the pages. The HTML portions have been added to each of the pages while the SCSS portions have been imported into each SCSS file of the corresponding page. 

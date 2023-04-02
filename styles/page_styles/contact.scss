@@ -3,13 +3,14 @@
 @import "../defaults/colors";
 @import "../defaults/breakpoint";
 
+// Implementation of background image
 body {
     background-image: url(../images/background-wihtewlight.jpg);
     background-size: cover;
     background-position: center;
 }
 
-
+// beginning of styling for form element on the contact page
 .contact-left{
     flex-basis: 35%;
     color: $dark-background;
@@ -41,7 +42,7 @@ body {
     width: 70%;
     display: block;
 }
-
+// styling of both buttons used in the form page. one being the download the CV and the other to submit the enquiry
 .btn{
     display: inline-block;
     margin: 50px auto;
@@ -60,7 +61,7 @@ body {
     background: $primary-color;
     color: $dark-background;
 }
-
+// additional styling of the form 
 form{
     display: inline-block;
     justify-content: center;
@@ -86,6 +87,7 @@ form .btn.btn2{
 
 }
 
+// styling of breakpoint so that content displays correctly on the page whether in mobile view or desktop view
 @media screen and (max-width:$medium) {
     main{
         display: flex;

@@ -2,7 +2,7 @@
 
 GitHub link - https://github.com/Patrick-Apilukpuvadol/portfolio.git
 
-Youtube Link - 
+Youtube Link - https://youtu.be/DLbpFcLIJYA
 
 URL for website - https://dynamic-clafoutis-965042.netlify.app
 

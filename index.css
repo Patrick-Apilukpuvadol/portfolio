@@ -183,12 +183,8 @@ body {
 .layer h3 {
   font-weight: 700;
   margin-bottom: 20px;
-  font-size: 72px;
-  color: #D1C6C3;
-}
-
-.layer p {
   font-size: 36px;
+  color: #D1C6C3;
 }
 
 .layer a {

@@ -141,7 +141,14 @@ main {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: vh;
+}
+main h1 {
+  margin-top: 40px;
+  font-weight: 700;
+  background: #6E6966;
+  color: #D1C6C3;
+  border-radius: 6px;
+  padding: 5px;
 }
 main article {
   border: 3px solid #6E6966;
